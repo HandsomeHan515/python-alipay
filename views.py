@@ -87,7 +87,6 @@ class PayNotifyView(GenericAPIView):
         alipay_public_key = ALIPAY_PUBLIC_KEY
 
         is_checked = check_ali_sign_func(payload, sign, alipay_public_key)
-        # print('check', is_checked)
         if not is_checked:
             return Response('fail')
 
