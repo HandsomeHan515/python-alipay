@@ -3,6 +3,9 @@ APP_ID = ''
 # 支付宝服务器向商户服务器发送支付异步通知接口
 NOTIFY_URL = 'http://example.com/alipay/notify/'
 
+# 支付宝api地址
+PAY_URL: 'https://openapi.alipay.com/gateway.do?payload',
+
 # 商户私钥
 RSA_PRIVATE = """
 -----BEGIN RSA PRIVATE KEY-----
