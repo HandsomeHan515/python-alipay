@@ -1,6 +1,8 @@
 # django-alipay
 Use Python3, Django, Django-rest-framework to achieve alipay payment.
 
+签名、服务器异步通知，退款操作
+
 ## 支付宝第三方支付流程
 
 1. 注册企业账户： https://memberprod.alipay.com/account/reg/enterpriseIndex.htm按步骤填写，注册完成后可获取支付宝企业账户
