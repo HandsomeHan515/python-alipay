@@ -1,4 +1,4 @@
-# django-alipay
+# python-alipay
 Use Python3, Django, Django-rest-framework to achieve alipay payment.
 
 签名、服务器异步通知，退款操作
