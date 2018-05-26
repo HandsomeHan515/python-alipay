@@ -8,13 +8,10 @@ Use Python3, Django, Django-rest-framework to achieve alipay payment.
 1. 注册企业账户： https://memberprod.alipay.com/account/reg/enterpriseIndex.htm按步骤填写，注册完成后可获取支付宝企业账户
 2. 登录支付宝开放平台：https://open.alipay.com/platform/home.htm
 3. 需要开通系统服务商ISV/自研开发者这两个合作伙伴角色，用户PID需要保存 https://open.alipay.com/platform/accountSetting.htm
-
 4. 创建应用：https://openhome.alipay.com/platform/appManage.htm 需要开通APP支付，然后进行签约，支付宝后台审核通过即可（其他功能安需求添加即可）
 5. 设置接口加签方式：采用RSA2方式在该地址：https://docs.open.alipay.com/291/106097下载mac版的密钥生成器
-
 6. 生成密钥（私钥和公钥，私钥要求自己保存，公钥上传到支付宝。自己的公钥上传后，支付宝会生成一个支付宝公钥）
 一个app应该有三个密钥：一个自己生成的私钥，一个自己生成的公钥，一个支付宝生成的公钥（我们后台会用到支付宝公钥，自己的私钥，私钥要保留好，如果私钥丢失，需要重新配置）
- 
 7. 提交审核，等待通过
 
 开发需要：1.app_id、2.用户私钥、3.支付宝公钥
